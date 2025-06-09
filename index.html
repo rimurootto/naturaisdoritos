@@ -6,6 +6,75 @@
   <title>Doritos que Transforma</title>
   <link href="https://t3.ftcdn.net/jpg/10/74/08/86/360_F_1074088647_J0HI21u0yYYikjTMyRwR3gGR4u9rYVKD.jpg" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body {
+      background: #f4f4f4;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #105c24;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .hero {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Nacho_Cheese_Flavor_Doritos_Ready_to_Party.jpg/1200px-Nacho_Cheese_Flavor_Doritos_Ready_to_Party.jpg') no-repeat center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      text-shadow: 2px 2px 5px #000;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .highlight {
+      color: #e36414;
+      font-weight: bold;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .btn {
+      background: #e36414;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 1rem;
+      text-decoration: none;
+      display: inline-block;
+    }
+    iframe, embed {
+      width: 100%;
+      height: 600px;
+      border: none;
+      margin-top: 1rem;
+    }
+    footer {
+      background: #105c24;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -37,7 +106,9 @@
 
     <div class="card">
       <h2>🥗 Receitas Sustentáveis</h2>
-      <p>Descubra receitas criativas com Doritos, como salada com abacate e tomate cereja. <button class="btn" onclick="baixarPDF()">Baixar Livro de Receitas</button></p>
+      <p>Descubra receitas criativas com Doritos, como salada com abacate e tomate cereja.</p>
+      <!-- PDF incorporado abaixo -->
+      <embed src="file:///C:/Users/moresqui.9945/Downloads/_Ingredientes%20%201%20pacote%20de%20Doritos%20(sabor%20a%20escolher,%20preferencialmente%20um%20sabor%20que%20combine%20com%20os%20outros%20ingredientes)%20%201%20abacate%20maduro,%20cortado%20em%20cubos%20%201%20x%C3%ADcara%20de%20tomate%20cereja,%20cortados%20ao.pdf" type="application/pdf" />
     </div>
   </section>
 
